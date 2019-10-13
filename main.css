@@ -447,6 +447,9 @@ input,
 select,
 textarea {
     width: 100%;
+    border-radius: 5px;
+    /* added */
+    height: 30px;
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
@@ -547,7 +550,7 @@ input[type="submit"]:hover {
     .about-heading h1 {
         font-size: 8rem;
     }
-
+    
     .section-heading h1 {
         font-size: 3rem;
     }
