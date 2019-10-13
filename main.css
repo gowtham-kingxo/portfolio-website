@@ -235,7 +235,7 @@ li {
     text-align: center;
     text-transform:  uppercase;
     line-height: 0;
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
 }
 
 .about-heading h1 {
@@ -248,9 +248,19 @@ li {
     font-weight: 300;
 }
 
-.profile-img {
+.about-details p {
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.profile-img-container {
     flex: 1;
-    margin-right: 5rem;
+    margin-right: 2rem;
+}
+
+.profile-img {
+    width: 400px;
+    height: 700px;
 }
 
 .about-details {
@@ -550,7 +560,7 @@ input[type="submit"]:hover {
     .about-heading h1 {
         font-size: 8rem;
     }
-    
+
     .section-heading h1 {
         font-size: 3rem;
     }
@@ -607,7 +617,7 @@ input[type="submit"]:hover {
          flex-direction: column;
      }
 
-     .profile-img {
+     .profile-img-container {
          margin: 0 0 7rem 0;
      }
 
